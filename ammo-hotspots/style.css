@@ -1,0 +1,54 @@
+
+
+.ammo {
+  max-width:80%;
+  height: auto;
+
+  display: inline-block;
+  position: relative;
+}
+.ammo img{
+  display:block;
+  max-width: 100%;
+  height:auto;
+}
+.ammo svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.popover {
+  background-color: black;
+  border-radius: 7px;
+  color: whitesmoke;
+  padding: 10px;
+  max-width:225px;
+}
+
+.popover.show{
+  opacity:0.85;
+}
+
+.popover-header {
+  font-size: 22px;
+  font-weight: bold;
+  background-color: black;
+  border: 1px;
+  max-height:32px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.popover-body{
+  color: whitesmoke;
+}
+
+.popover >.arrow {
+  opacity: 0;
+}
+
+
+
+
+
