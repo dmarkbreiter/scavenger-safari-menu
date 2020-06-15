@@ -1,0 +1,22 @@
+.strom {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+  }
+  .strom img{
+    display:block;
+    max-width: 100%;
+    height:auto;
+    z-index: 0;
+  }
+  .strom svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .cls {
+    opacity:0;
+  }
